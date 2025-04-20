@@ -3,6 +3,7 @@ let lucky;
 
 function luckyNumber(){
     let num = Math.floor(Math.random()*  9 + 1)
+    
      luckyNum.innerText = num
 }
 
