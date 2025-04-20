@@ -13,7 +13,7 @@ let intervalId;
 
 function startChanging() {
   if (!intervalId) {
-    intervalId = setInterval(changecolor, 1000);
+    intervalId = setInterval(changecolor,1000);
   }
 }
 
