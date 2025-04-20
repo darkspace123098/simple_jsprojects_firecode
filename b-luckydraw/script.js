@@ -1,17 +1,23 @@
-// let luckyNum = document.getElementById('num')
+let luckyNum = document.getElementById('num')
 let lucky;
+
 function luckyNumber(){
     let num = Math.floor(Math.random()*  9 + 1)
-        lucky= num
-     console.log(lucky)
+     luckyNum.innerText = num
 }
 
+let intervalId;
+
 function startNum(){
-    let intervalId =  setInterval(luckyNumber,1000)
+    if(!intervalId){
+
+   intervalId =  setInterval(luckyNumber,10)
+
+    }
+    
 }
 
 function stopNum(){
     clearInterval(intervalId)
+    intervalId = null
 }
-// startNum()
-stopNum()
