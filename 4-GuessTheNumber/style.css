@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 body {
@@ -72,17 +72,19 @@ button {
   box-sizing: border-box;
   text-align: center;
   width: 450px;
-  height: 550px;
-  background-color: #474747;
+  height: 750px;
+  background-color: #6564b9;
   color: #fff;
   font-size: 25px;
+  border-radius: 8px;
 }
 
 h1 {
-  background-color: #161616;
-
+  background-color: #0c0d35;
   color: #fff;
   text-align: center;
+  padding-bottom: 2%;
+  border-radius: 8px;
 }
 
 p {

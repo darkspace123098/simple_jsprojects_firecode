@@ -14,6 +14,8 @@
     <a target="_blank" href="https://firecode.ezyro.com">Developer</a>
   </nav>
     
+  <body style="background-color:#ffffff; color:#fff;">
+    
     <div id="wrapper">
       <h1>Number guessing game</h1>
     <p>Try and guess a random number between 1 and 100.</p>
@@ -21,7 +23,7 @@
     </br>
         <form class="form">
             <label2 for="guessField" id="guess">Guess a number</label>
-            <input type="text" id="guessField" class="guessField">
+            <input type="text" id="guessField" class="guessField"><p id="empty"></p>
             <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
         </form>
 
@@ -31,8 +33,9 @@
             <p class="lowOrHi"></p>
         </div>
     </div>
-    <script src="chaiaurcode.js">
-    </script>
+    <script src="script.js"></script>
+</body>
+</html>
     <noscript>
     let p = document.createElement('p');
     p.setAttribute('title', 'paragraph');
