@@ -66,7 +66,7 @@ function nextQuestion() {
 
        document.querySelector('.box').innerHTML=`
         <h2>You Scored ${score} out of ${questions.length}</h2>
-        <h3>Attempt Left : ${attempt}</h3>
+        <h3>Attempt Left : ${attempt-1}</h3>
         <div class="btn">
         <button  onclick="playAgain()">Play Again</button>
         </div>
@@ -80,6 +80,7 @@ function playAgain()
 {
     current = 0
     attempt--
+    
     if(attempt>0){
       loadQuestion()
     }
