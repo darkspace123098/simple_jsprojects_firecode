@@ -1,6 +1,6 @@
 const questions = [
-    {question:"a",option:[1,2,3,4],correct:3},
-    {question:"z",option:[1,2,3,4],correct:2},
+    {question:"who is the father of computer ",option:["Charles Mcgill","Arman Traut","Charles Babage","Branden Eich"],correct:2},
+    {question:"",option:[1,2,3,4],correct:2},
     {question:"e",option:[1,2,3,4],correct:1},
     {question:"f",option:[1,2,3,4],correct:0}
 ]
