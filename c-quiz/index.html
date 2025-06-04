@@ -36,14 +36,14 @@
             
         }
         button{
-            width: 250px;
             display: inline-flex;
             justify-content: center;
             align-items: center;
             border-radius:6px;
             font-weight: bold;
             padding: 10px;
-            margin: auto ;
+            margin: 20px ;
+            width: 50%;
             background-color: rgb(105, 91, 185);
             font-weight: bolder;
             transition: 0.5s;
@@ -61,14 +61,22 @@
             margin: 20px;
 
         }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
     <div class="box">
         <h2 id="question">Question....</h2>
         <div id="options"></div>
-        <button onclick="nextQuestion()">Submit</button>
-        <button onclick="viewScore()">Score</button>
+        <div class="btn">
+            <button onclick="nextQuestion()">Submit</button>
+            <button onclick="viewScore()">Score</button>
+        </div>
+
 
     </div>
 <script src="script.js"></script>
