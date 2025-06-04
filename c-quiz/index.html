@@ -73,6 +73,17 @@
             height: 100%;
             padding: auto;
         }
+        .login
+        {
+            /* margin: 20px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login input{
+            width: 80px;
+            height: 20px;
+        }
     </style>
 </head>
 
@@ -81,13 +92,17 @@
         <header>
             <h1 class="head"><center>Quiz App</center></h1>
         </header>
-        
-        <h2 id="question">Question....</h2>
-        <div id="options"></div>
-        <div class="btn">
-            <button onclick="nextQuestion()">Submit</button>
-            <button onclick="viewScore()">Score</button>
+        <center><label for="user">Quiz Id : </label></center>
+
+        <div class="login">
+            <input type="text" name="quizid" id="quiz_id">
         </div>
+        <div class="login">
+        <button onclick="validate()">Login</button>
+
+        </div>
+
+        
 
 
     </div>
